@@ -19,7 +19,7 @@ interface EthExplorerApi {
         val address: String,
         val name: String?,
         val symbol: String?,
-        val decimals: Long?,
+        val decimals: String?,
         val image: String?,
     )
 }
